@@ -49,10 +49,7 @@ h1 {
   .section-2-h2 {
     font-family: 'Cinzel', sans-serif;
     font-size: 7rem;
-  }
-
-  .image-2 {
-    border-radius: 15rem 15rem 0rem 0rem;
+    padding: 2%;
   }
 
   .section-2-p {
@@ -109,6 +106,10 @@ h1 {
     li {
       font-family: 'Rokkitt', sans-serif;
     }
+
+    .section-5-div-2 {
+      width: 75%;
+    }
   }
 
   .section-5-img {
@@ -154,10 +155,18 @@ h1 {
   color: #000;
   background-color: #F6F2E5;
 
+  .section-7-div {
+    flex-direction: column;
+  }
+
+  section-7-div-2 {
+    align-items: end;
+  }
+
   .section-7-a {
     color: #000;
-    text-decoration:none;
-}
+    text-decoration: none;
+  }
 
   .section-7-p {
     font-family: 'Rokkitt', sans-serif;
@@ -173,5 +182,192 @@ h1 {
     font-family: 'Cinzel', sans-serif;
     font-size: 7rem;
   }
+}
 
+@media screen and (min-width: 365px) and (max-width: 800px) {
+  body {
+    width: 100%;
+    margin: 0;
+    color: #F6F2E5;
+  }
+
+  main {
+    background-color: #5E5343;
+  }
+
+  h1 {
+    font-family: 'Cinzel', sans-serif;
+    margin: 0;
+    font-size: 2.7rem;
+  }
+
+  .section-1 {
+    width: 90%;
+    height: 100vh;
+
+    .section-1-div {
+      flex-direction: column;
+    }
+
+    .image-1 {
+      width: 22rem;
+      height: 8.5rem;
+      border-radius: 15rem 15rem 15rem 15rem;
+    }
+
+    .button-About {
+      border: none;
+      color: #F6F2E5;
+      background-color: transparent;
+    }
+
+    .section-1-h2 {
+      font-family: 'Rokkitt', sans-serif;
+      font-size: 1.75rem;
+    }
+
+    .section-1-h3 {
+      font-family: 'Rokkitt', sans-serif;
+      font-size: 1.75rem;
+      font-weight: 400;
+    }
+  }
+
+  .section-2 {
+    height: 100%;
+    color: #000;
+    background-color: #D9D4C1;
+
+    .section-2-h2 {
+      font-family: 'Cinzel', sans-serif;
+      font-size: 3.75rem;
+      padding: 5%;
+    }
+
+    .section-2-div {
+      flex-direction: column;
+    }
+
+    .image-2 {
+      width: 90vw;
+    }
+
+    .section-2-p {
+      font-family: 'Rokkitt', sans-serif;
+      font-size: 2rem;
+    }
+  }
+
+  .section-3 {
+
+    height: 100%;
+
+    .section-3-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .image-3-1,
+    .image-3-2,
+    .image-3-3 {
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    .button-Campains-h2 {
+      font-size: 3rem;
+    }
+  }
+
+  .section-4 {
+    flex-direction: column;
+    height: 100%;
+
+    .section-4-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .section-4-img {
+      width: 150%;
+      height: auto;
+    }
+  }
+
+  .section-5 {
+    /* height: 100%; */
+    padding: 5%;
+
+    .section-5-h2 {
+      font-size: 3rem;
+      text-align: center;
+    }
+
+    .section-5-div {
+      flex-direction: column;
+    }
+
+    .section-5-p {
+      position: static;
+      font-size: 1.25rem;
+    }
+
+    .section-5-img {
+      width: 97%;
+      margin-bottom: 3%;
+    }
+
+    li {
+      font-size: 1.25rem;
+    }
+
+    .section-5-div-2 {
+      /* flex-direction: column; */
+      width: 100%;
+    }
+  }
+
+  .section-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-left: 10%;
+
+    .section-6-h2 {
+      font-size: 4rem;
+      padding-bottom: 20%;
+    }
+  }
+
+  .section-6-div {
+    padding-bottom: 15%;
+  }
+
+  .section-7 {
+
+    .section-7-div {
+      
+      flex-direction: column-reverse;
+      
+      .section-7-div-2 {
+        align-items: start;
+      }
+  
+      .section-7-h3 {
+        font-size: 1.5rem;
+      }
+  
+      .section-7-h2 {
+        font-family: 'Cinzel', sans-serif;
+        font-size: 2.5rem;
+      }
+    }
+  }
 }
