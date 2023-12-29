@@ -154,6 +154,11 @@ h1 {
   color: #000;
   background-color: #F6F2E5;
 
+  .section-7-a {
+    color: #000;
+    text-decoration:none;
+}
+
   .section-7-p {
     font-family: 'Rokkitt', sans-serif;
     font-size: 2rem;
