@@ -197,7 +197,7 @@ h1 {
   }
 }
 
-@media screen and (min-width: 365px) and (max-width: 800px) {
+@media screen and (min-width: 360px) and (max-width: 800px) {
   body {
     width: 100%;
     margin: 0;
@@ -296,6 +296,7 @@ h1 {
     }
 
     .section-3-h3 {
+      margin: 1rem;
       text-align: center;
     }
   }
@@ -312,7 +313,7 @@ h1 {
 
       .section-4-div-2 {
         width: 100%;
-        
+
         .section-4-p {
           margin: 2rem 1rem;
           font-size: 1.75rem;
@@ -370,13 +371,19 @@ h1 {
 
     .section-6-h2 {
       font-size: 4rem;
+      padding: 15% 0;
+    }
+
+    .section-6-h3 {
+      margin-right: 3.5rem;
+    }
+
+    .section-6-div {
+      flex-direction: column;
       padding-bottom: 20%;
     }
   }
 
-  .section-6-div {
-    padding-bottom: 15%;
-  }
 
   .section-7 {
 
