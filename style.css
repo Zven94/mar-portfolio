@@ -145,6 +145,10 @@ h1 {
   color: #F6F2E5;
   padding: 0% 0% 0% 5%;
 
+  .section-6-div-2 {
+    width: 16%;
+  }
+  
   .section-6-img {
     width: 100%;
   }
