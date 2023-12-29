@@ -374,18 +374,23 @@ h1 {
 
     padding-left: 10%;
 
+    
     .section-6-h2 {
       font-size: 4rem;
       padding: 15% 0;
     }
-
+    
     .section-6-h3 {
       margin-right: 3.5rem;
     }
-
+    
     .section-6-div {
       flex-direction: column;
       padding-bottom: 20%;
+      
+      .section-6-div-2 {
+        width: 90%;
+      }
     }
   }
 
