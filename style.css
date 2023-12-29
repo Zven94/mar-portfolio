@@ -266,10 +266,11 @@ h1 {
     }
 
     .image-2 {
-      width: 90vw;
+      width: 50vw;
     }
 
     .section-2-p {
+      width: 50%;
       font-family: 'Rokkitt', sans-serif;
       font-size: 1.65rem;
     }
