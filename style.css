@@ -8,6 +8,7 @@ main {
 }
 
 h1 {
+  font-family: 'Cinzel', sans-serif;
   margin: 0;
   font-size: 7rem;
 }
@@ -17,13 +18,26 @@ h1 {
   height: 100vh;
 
   .image-1 {
-    border-radius: 15rem 15rem 15rem 15rem; 
+    width: 60rem;
+    height: 23rem;
+    border-radius: 15rem 15rem 15rem 15rem;
   }
 
   .button-About {
     border: none;
     color: #F6F2E5;
     background-color: transparent;
+  }
+
+  .section-1-h2 {
+    font-family: 'Rokkitt', sans-serif;
+    font-size: 2rem;
+  }
+
+  .section-1-h3 {
+    font-family: 'Rokkitt', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
   }
 }
 
@@ -33,14 +47,16 @@ h1 {
   background-color: #D9D4C1;
 
   .section-2-h2 {
+    font-family: 'Cinzel', sans-serif;
     font-size: 7rem;
   }
 
   .image-2 {
-    border-radius: 15rem 15rem 0rem 0rem; 
+    border-radius: 15rem 15rem 0rem 0rem;
   }
 
   .section-2-p {
+    font-family: 'Rokkitt', sans-serif;
     font-size: 2rem;
   }
 }
@@ -50,12 +66,17 @@ h1 {
   height: 100vh;
   background-color: #F6F2E5;
 
-  .button-Campains{
+  .section-3-h3 {
+    font-family: 'Rokkitt', sans-serif;
+  }
+
+  .button-Campains {
     border: none;
     background-color: transparent;
   }
 
   .button-Campains-h2 {
+    font-family: 'Cinzel', sans-serif;
     font-size: 4rem;
   }
 }
@@ -66,6 +87,7 @@ h1 {
   color: #F6F2E5;
 
   .section-4-p {
+    font-family: 'Rokkitt', sans-serif;
     font-size: 1.75rem;
     text-align: center;
   }
@@ -80,12 +102,29 @@ h1 {
   height: 100vh;
   background-color: #D9D4C1;
 
+  ul {
+    list-style: none;
+    height: 40%;
+
+    li {
+      font-family: 'Rokkitt', sans-serif;
+    }
+  }
+
+  .section-5-img {
+    width: 100%;
+  }
+
   .section-5-h2 {
+    font-family: 'Cinzel', sans-serif;
     font-size: 7rem;
   }
+
   .section-5-p {
     position: absolute;
-    left: 5%;
+    top: 430%;
+    left: 3%;
+    font-family: 'Rokkitt', sans-serif;
     font-size: 2rem;
   }
 }
@@ -99,8 +138,14 @@ h1 {
   }
 
   .section-6-h2 {
+    font-family: 'Cinzel', sans-serif;
     font-size: 7rem;
     margin: 0;
+  }
+
+  .section-6-h3 {
+    font-family: 'Rokkitt', sans-serif;
+    font-size: 2rem;
   }
 }
 
@@ -110,14 +155,17 @@ h1 {
   background-color: #F6F2E5;
 
   .section-7-p {
+    font-family: 'Rokkitt', sans-serif;
     font-size: 2rem;
   }
 
   .section-7-h3 {
+    font-family: 'Rokkitt', sans-serif;
     font-size: 2.5rem;
   }
 
   .section-7-h2 {
+    font-family: 'Cinzel', sans-serif;
     font-size: 7rem;
   }
 
