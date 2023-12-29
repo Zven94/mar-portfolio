@@ -211,7 +211,7 @@ h1 {
   h1 {
     font-family: 'Cinzel', sans-serif;
     margin: 0;
-    font-size: 2.7rem;
+    font-size: 2.5rem;
   }
 
   .section-1 {
@@ -267,7 +267,7 @@ h1 {
 
     .section-2-p {
       font-family: 'Rokkitt', sans-serif;
-      font-size: 2rem;
+      font-size: 1.65rem;
     }
   }
 
@@ -296,7 +296,8 @@ h1 {
     }
 
     .section-3-h3 {
-      margin: 1rem;
+      margin: 0.2rem;
+      font-size: 1.25rem;
       text-align: center;
     }
   }
