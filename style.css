@@ -116,6 +116,10 @@ h1 {
 
     li {
       font-family: 'Rokkitt', sans-serif;
+
+      h4 {
+        font-size: 1.25vw;
+      }
     }
 
     .section-5-div-2 {
@@ -129,7 +133,7 @@ h1 {
 
   .section-5-h2 {
     font-family: 'Cinzel', sans-serif;
-    font-size: 5rem;
+    font-size: 3vw;
   }
 
   .section-5-p {
@@ -137,7 +141,7 @@ h1 {
     top: 425%;
     left: 2%;
     font-family: 'Rokkitt', sans-serif;
-    font-size: 2rem;
+    font-size: 2vw;
   }
 }
 
