@@ -172,6 +172,9 @@ h1 {
   padding: 0% 0% 0% 5%;
 
   .section-6-div-2 {
+    h3 {
+      width: 3rem;
+    }
     width: 16%;
   }
 
@@ -433,6 +436,10 @@ h1 {
       padding-bottom: 5%;
 
       .section-6-div-2 {
+        h3 {
+          width: 3rem;
+        }
+
         width: 30%;
       }
     }
@@ -665,6 +672,10 @@ h1 {
       padding-bottom: 20%;
 
       .section-6-div-2 {
+        h3 {
+          width: 3rem;
+        }
+
         width: 95%;
       }
     }
@@ -872,6 +883,7 @@ h1 {
       .section-5-div-4 {
         width: 95%;
         display: flex;
+
         .section-5-img {
           width: 95%;
         }
@@ -903,6 +915,10 @@ h1 {
       padding-bottom: 20%;
 
       .section-6-div-2 {
+        h3 {
+          width: 3rem;
+        }
+
         width: 90%;
       }
     }
