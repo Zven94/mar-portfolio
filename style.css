@@ -128,7 +128,7 @@ h1 {
 
   .section-5-h2 {
     font-family: 'Cinzel', sans-serif;
-    font-size: 7rem;
+    font-size: 5rem;
   }
 
   .section-5-p {
@@ -335,7 +335,6 @@ h1 {
   }
 
   .section-5 {
-    /* height: 100%; */
     padding: 5%;
 
     .section-5-h2 {
@@ -552,7 +551,6 @@ h1 {
   }
 
   .section-5 {
-    /* height: 100%; */
     padding: 5%;
 
     .section-5-h2 {
