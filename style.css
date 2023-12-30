@@ -113,7 +113,7 @@ h1 {
 
   .section-5-h2 {
     font-family: 'Cinzel', sans-serif;
-    font-size: 5vw;
+    font-size: 4vw;
   }
 
   .section-5-div-2 {
@@ -159,7 +159,8 @@ h1 {
       align-items: end;
 
       .section-5-img {
-        width: 95%;
+        max-width: 490px;
+        width: 65%;
       }
     }
   }
