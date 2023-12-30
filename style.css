@@ -869,8 +869,13 @@ h1 {
       justify-content: end;
       align-items: end;
 
-      .section-5-img {
+      .section-5-div-4 {
         width: 95%;
+        display: flex;
+        .section-5-img {
+          width: 95%;
+        }
+
       }
     }
   }
