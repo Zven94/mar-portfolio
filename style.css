@@ -172,10 +172,12 @@ h1 {
   padding: 0% 0% 0% 5%;
 
   .section-6-div-2 {
+    width: 25%;
+    padding-right: 1rem;
     h3 {
       width: 3rem;
+      font-size: 2rem;
     }
-    width: 16%;
   }
 
   .section-6-img {
@@ -423,7 +425,7 @@ h1 {
 
 
     .section-6-h2 {
-      font-size: 4rem;
+      font-size: 3rem;
       padding: 5% 0;
     }
 
@@ -436,11 +438,11 @@ h1 {
       padding-bottom: 5%;
 
       .section-6-div-2 {
+        width: 30%;
         h3 {
           width: 3rem;
+          font-size: 1rem;
         }
-
-        width: 30%;
       }
     }
   }
@@ -672,11 +674,11 @@ h1 {
       padding-bottom: 20%;
 
       .section-6-div-2 {
+        width: 95%;
         h3 {
           width: 3rem;
+          font-size: 1rem;
         }
-
-        width: 95%;
       }
     }
   }
@@ -915,11 +917,12 @@ h1 {
       padding-bottom: 20%;
 
       .section-6-div-2 {
+        width: 90%;
         h3 {
           width: 3rem;
+          font-size: 1rem;
         }
 
-        width: 90%;
       }
     }
   }
