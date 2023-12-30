@@ -100,7 +100,6 @@ h1 {
 
   .section-4-img {
     width: 100%;
-    /* height: 100vh; */
   }
 }
 
@@ -110,38 +109,44 @@ h1 {
   background-color: #D9D4C1;
   padding: 5% 0% 0% 2%;
 
-  ul {
-    list-style: none;
-    height: 45%;
-
-    li {
-      font-family: 'Rokkitt', sans-serif;
-
-      h4 {
-        font-size: 1.25vw;
-      }
-    }
-
-    .section-5-div-2 {
-      width: 75%;
-    }
-  }
-
-  .section-5-img {
-    width: 95%;
-  }
-
   .section-5-h2 {
     font-family: 'Cinzel', sans-serif;
     font-size: 3vw;
   }
 
-  .section-5-p {
-    position: absolute;
-    top: 425%;
-    left: 2%;
-    font-family: 'Rokkitt', sans-serif;
-    font-size: 2vw;
+  .section-5-div-2 {
+    flex-direction: column;
+
+    .section-5-p {
+      width: 25rem;
+      position: relative;
+      top: 5%;
+      font-family: 'Rokkitt', sans-serif;
+      font-size: 1.5vw;
+    }
+
+    ul {
+      height: 20%;
+      width: 100%;
+      list-style: none;
+      position: relative;
+
+      li {
+        font-family: 'Rokkitt', sans-serif;
+
+        h4 {
+          font-size: 1.25vw;
+        }
+      }
+
+      .section-5-div-3 {
+        width: 50%;
+
+        .section-5-img {
+          width: 50%;
+        }
+      }
+    }
   }
 }
 
@@ -153,7 +158,7 @@ h1 {
   .section-6-div-2 {
     width: 16%;
   }
-  
+
   .section-6-img {
     width: 100%;
   }
@@ -340,9 +345,11 @@ h1 {
   }
 
   .section-5 {
+    height: 100vh;
     padding: 5%;
 
     .section-5-h2 {
+      /* padding: 5%; */
       font-size: 4vw;
       text-align: center;
     }
@@ -356,10 +363,6 @@ h1 {
       font-size: 1.25rem;
     }
 
-    .section-5-img {
-      width: 20vw;
-      margin-bottom: 3%;
-    }
 
     ul {
       height: 20%;
@@ -369,11 +372,13 @@ h1 {
       font-size: 1.25vw;
     }
 
-    .section-5-div-2 {
-      position: relative;
+    .section-5-div-3 {
       width: 50%;
-      top: 5%;
-      left: 34%;
+
+      .section-5-img {
+        width: 50%;
+        margin-bottom: 3%;
+      }
     }
   }
 
@@ -385,20 +390,20 @@ h1 {
 
     padding-left: 10%;
 
-    
+
     .section-6-h2 {
       font-size: 4rem;
       padding: 5% 0;
     }
-    
+
     .section-6-h3 {
       margin-right: 3.5rem;
     }
-    
+
     .section-6-div {
       /* flex-direction: column; */
       padding-bottom: 5%;
-      
+
       .section-6-div-2 {
         width: 30%;
       }
@@ -560,6 +565,7 @@ h1 {
   }
 
   .section-5 {
+    height: 100vh;
     padding: 5%;
 
     .section-5-h2 {
@@ -576,22 +582,22 @@ h1 {
       font-size: 1.25rem;
     }
 
-    .section-5-img {
-      width: 97%;
-      margin-bottom: 3%;
-    }
 
     ul {
-      height: 20%;
+      height: 20vh;
     }
 
     li {
       font-size: 1.25vw;
     }
 
-    .section-5-div-2 {
-      /* flex-direction: column; */
-      width: 100%;
+    .section-5-div-3 {
+      width: 50%;
+
+      .section-5-img {
+        width: 97%;
+        margin-bottom: 3%;
+      }
     }
   }
 
@@ -603,20 +609,20 @@ h1 {
 
     padding-left: 10%;
 
-    
+
     .section-6-h2 {
       font-size: 4rem;
       padding: 5% 0;
     }
-    
+
     .section-6-h3 {
       margin-right: 3.5rem;
     }
-    
+
     .section-6-div {
       flex-direction: column;
       padding-bottom: 20%;
-      
+
       .section-6-div-2 {
         width: 90%;
       }
@@ -779,6 +785,7 @@ h1 {
   }
 
   .section-5 {
+    height: 100vh;
     padding: 5%;
 
     .section-5-h2 {
@@ -792,21 +799,21 @@ h1 {
 
     .section-5-p {
       position: static;
-      font-size: 1.25rem;
-    }
-
-    .section-5-img {
-      width: 85%;
-      margin-bottom: 3%;
+      font-size: 1.25vw;
     }
 
     li {
       font-size: 1.25vw;
     }
 
-    .section-5-div-2 {
+    .section-5-div-3 {
       /* flex-direction: column; */
-      width: 100%;
+      width: 50%;
+
+      .section-5-img {
+        width: 85%;
+        margin-bottom: 3%;
+      }
     }
   }
 
@@ -818,20 +825,20 @@ h1 {
 
     padding-left: 10%;
 
-    
+
     .section-6-h2 {
       font-size: 4rem;
       padding: 5% 0;
     }
-    
+
     .section-6-h3 {
       margin-right: 3.5rem;
     }
-    
+
     .section-6-div {
       flex-direction: column;
       padding-bottom: 20%;
-      
+
       .section-6-div-2 {
         width: 90%;
       }
